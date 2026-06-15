@@ -1,44 +1,7 @@
-# ===== Secrets =====
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-
-# ===== OS =====
-.DS_Store
-
-# ===== Node =====
-node_modules/
-npm-debug.log*
-yarn-error.log*
-
-# ===== Frontend build =====
-dist/
-.next/
-.vite/
-
-# ===== Python =====
-__pycache__/
-*.py[cod]
-.venv/
-.venv-1/
-venv/
-.codex-python-packages/
-
-# ===== Java / Maven =====
-target/
-.mvn/wrapper/maven-wrapper.jar
-HELP.md
-
-# ===== IDE / editor =====
+.metadata/
 .vscode/
-.idea/
-.settings/
-.classpath
-.project
-.factorypath
-.springBeans
-.sts4-cache/
-*.iml
-.apt_generated/
+.DS_Store
+__MACOSX/
+target/
+node_modules/
+*.log
